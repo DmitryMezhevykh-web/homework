@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form" >
+        <h1>Форма Регистрации</h1>
+        <form action="#" method="post">
+            <div class="authorization">
+                <label class="Login">Логин:<input autofocus type="text"      placeholder="Введите имя"></label>
+                <label class="password">Пароль:<input type="password" placeholder="Введите пароль"></label>
+                <label class="e-mail">E-mail:<input type="email"      placeholder="Введите email"></label>
+            </div>
+            <div class="social_media">
+                <span class="social_media">Как вы узнали о нас? </span>
+                <select name="Social_media">
+                    <option value="Яндекс">Яндекс</option>
+                    <option value="Вконтакте">Вконтакте</option>
+                    <option value="Youtube">Youtube</option>
+                </select>
+            </div>
+            <div class="birth_date">
+                <span>Дата Рождения:</span>
+                <input type="date" name="date">
+                <span>Выберете пол:</span>
+                <label><input name="answer" type="radio">Мужской</label>
+                <label><input name="answer" type="radio">Женский</label>
+            </div>
+            <div class="information">
+                <span>Расскажите о себе:</span>
+                <textarea cols="40" rows="10"
+                autofocus required placeholder="Подсказка">
+                </textarea>
+                <span>Согласие на обработку данных</span>
+                <input type="Checkbox" name="checkbox"/>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>    
+</body>
+</html>

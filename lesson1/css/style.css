@@ -1,0 +1,67 @@
+.nav {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.table {
+    width: 950px;
+    height: 150px;
+    background: red;
+}
+
+.form {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background: peachpuff;
+    border-radius: 3%;
+}
+
+.authorization {
+}
+
+.login {
+    display: block;
+}
+
+.password {
+    display: block;
+}
+
+.social_media {
+    display: block;
+}
+
+span {
+    display: block;
+}
+----------------------------------------------------------------------------------------------------------------------------------------
+.menu {
+    /* box-shadow: [inset -тень внутри блока]
+                смещение по горизонтали относительно блока;
+                смещение по вертикали относительно блока
+                радиус размыти
+                растяжение
+                цвет */
+    10px 4px 3px 
+}
+
+
+.hover:hover {
+    
+}
+ 
+[атрибут]
+[атррибут='значение']
+

@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+header {
+    background: grey;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .login {
+    margin-left:auto;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul a {
+    padding: 7px 12px;
+    text-decoration: none;
+}
+
+header ul a:hover {
+    background: green;
+    border-radius: 4px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    display: block;
+}
+
+.blog_1,
+.blog_2,
+.blog_3 {
+    margin: 0 50px;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);;
+    width: 90px;
+    height: 19px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 12px;
+}
