@@ -42,6 +42,7 @@ header .flex_container {
 
 .flex_grid {
     display: flex;
+    min-height: 240px;
 }
 
 
